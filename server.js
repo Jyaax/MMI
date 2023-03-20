@@ -8,7 +8,7 @@ app.use('/js',express.static(__dirname+'/node_modules/jquey/dist'));
 app.use('/js',express.static(__dirname+'/node_modules/@popperjs/core/dist/umd'));
 app.use('/css',express.static(__dirname+'/node_modules/bootstrap/dist/css'));
 app.use('/views', express.static(__dirname + '/views'));
-app.use('view engine', 'ejs');
+app.set('view engine', 'ejs');
 app.listen(port,()=>{
     console.log('Le serveur est en route');
     console.log(`Serveur listening at http://localhost:${port}`);
