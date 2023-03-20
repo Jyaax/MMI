@@ -15,7 +15,7 @@ app.listen(port,()=>{
 })
 
 app.get('/',(req,res,next)=>{
-    res.render('/www/index.html');
+    res.render('index.ejs');
 })
 
 app.get('/accueil',(req,res,next)=>{
