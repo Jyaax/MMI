@@ -7,10 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Astélie",
+  "author": "Astélie mais c'est Julie mtn UwU",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "jquery": "^3.6.4"
   }
